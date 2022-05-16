@@ -1,6 +1,34 @@
-# Restaurant
+# Restaurant "Le Gerbotron"
 
-## The mission
+## Challenge par équipe de :
+
+Je suis tout SEUL !
+
+## De quoi ça parle ?
+
+Le but du jeu est d'avoir un site qui nous parle d'un restaurant. Elle doit être constituée de plusieurs pages.
+
+- L'accueil
+- Le menu
+- La gallerie photos
+- Les localisations
+- Le contact
+
+## De quand date le projet ? C'est en cours ?
+
+Le projet date du 16/05/2022, c'est donc encore en cours, puisque c'est aujourd'hui même qu'il a vu le jour !
+
+## Le but de la manoeuvre ?
+
+Pourquoi je fais ça ? Pour m'exercer à utiliser du bootstrap dans le cadre de ma formation BeCode !
+
+## Comment ça progresse ?
+
+Pour l'instant c'est la galère, mais je vais faire de mon mieux pour que ça progresse bien dans la direction où je veux aller tout en respectant les consignes.
+
+## Il y a quoi là-dedans ?
+
+Plus concrètement que deux ou trois questions plus haut ? Regarde juste en dessous :point_down:
 
 Create a repository called _restaurant-css-framework_ in which you must realise
 a window web page for a restaurant. The franchise is fictive, but the type of
@@ -32,3 +60,7 @@ correct tag.
 
 If you want to make an even more complex website feel free to try new things and
 make it as beautiful as possible.
+
+## Un petit mot pour la fin ?
+
+LEEEEEEET'S GOOOOOOOO
