@@ -1,6 +1,6 @@
 # Restaurant
 
-== The mission
+## The mission
 
 Create a repository called _restaurant-css-framework_ in which you must realise
 a window web page for a restaurant. The franchise is fictive, but the type of
