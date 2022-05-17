@@ -1,7 +1,28 @@
+body{
+    background-color: lightgray;
+}
+
 .home{
     width: 100%;
 }
 
 .grey{
     background-color: grey;
+}
+
+.menu{
+    margin-top: 80px;
+    background-color: rgb(80, 5, 21);
+}
+
+.menu h1{
+    color: white;
+}
+
+.photos{
+    margin-top: 80px;
+}
+
+.carousel{
+    width: 550px;
 }

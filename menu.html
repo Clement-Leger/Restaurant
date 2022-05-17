@@ -4,10 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top opacity-75">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#" class="Gerbotron">Gerbotron</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Localisations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Menu-->
+  <!--Entrées-->
     
+<div class="container menu">
+  <div class="row"><h1>Entrées</h1>
+    <div class="col-sm-4">
+      <img width="250px" src="images/entree.jpg" alt="photo d'une entrée">
+    </div>
+    <div class="col-sm-6">
+      <ul class="list-group">
+        
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Epinards cuits au micro-onde puis refroidi au réfrigérateur
+            <span class="badge badge-warning badge-pill">25,99€</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Haricots rouges secs et croustillants
+            <span class="badge badge-danger badge-pill">40€</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Plateau assortiment de chips, fromages et jambons accompagnés de camembert fondu 
+            <span class="badge badge-success badge-pill">5€</span>
+          </li>
+      </ul>    
+    </div>
+  </div>    
+</div> 
+
+    <!--PLATS-->
+
+<div class="container menu">
+    <h1>Plats</h1>
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Raviolis surgelés saupoudrés de cannelle
+        <span class="badge badge-warning badge-pill">55,32€</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Salade saine (tomates, concombre, maïs, thon, etc)
+        <span class="badge badge-danger badge-pill">250€</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Tartiflette, saucisson, burger et pizza
+        <span class="badge badge-success badge-pill">1€ symbolique</span>
+      </li>
+    </ul>
+</div>
+
+<!--DESSERTS-->
+
+<div class="container menu">
+    <h1>Desserts</h1>
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Salade de fruits (pomme, banane, orange, ananas, fraise, mangue)
+        <span class="badge badge-danger badge-pill">350€</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Plateau d'une sélection de 18 fromages
+        <span class="badge badge-success badge-pill">3€</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Coupe colonel XXXXXXL (1/4 de glace et 3/4 de vodka)
+        <span class="badge badge-success badge-pill">5€</span>
+      </li>
+    </ul>
+  </div>
+
+    <!--BOISSONS-->
+
+<div class="container menu">
+    <h1>Boissons</h1>
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Verre d'eau
+        <span class="badge badge-danger badge-pill">4,99€</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        1L Vodka
+        <span class="badge badge-success badge-pill">0,55€</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        1,5L Whisky
+        <span class="badge badge-success badge-pill">0,30€</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Verre de sirop de grenadine
+        <span class="badge badge-warning badge-pill">3€</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        5L de bière
+        <span class="badge badge-success badge-pill">1€</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Assortiment d'un litre de tous les alcools du bar à consommer sur le champ
+        <span class="badge badge-success badge-pill">On vous donne 10€</span>
+      </li>
+    </ul>
+</div>
+
+<!--JS-->
+<script type="text/javascript" src="css/bootstrap.min.js"></script>
 </body>
 </html>

@@ -10,66 +10,88 @@
 <body>
 <!--Navbar-->
 
-<nav class="navbar navbar-expand-lg bg-black fixed-top opacity-75">
-    <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#">Gerbotron</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="#">Page d'accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Photos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">à propos de nous</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact</a>
-          </li>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-
-        </form>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top opacity-75">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#" class="Gerbotron">Gerbotron</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Localisations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
 <!--Image d'accueil-->
 
 <div class="jumbotron">
     <h1 class="display-4">
-        <img home src="images/homee.jpg" alt="photo d'accueil">
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4"><p>huhu</p>
+        <img class="home" src="images/homee.jpg" alt="photo d'accueil">
+    <p class="lead">Venez en bonne santé, nous nous occupons du reste.</p>
+    <hr class="my-4">
   </div>
 
   <!--Evenements & promotions-->
-
-  <div class="container">
-      <div class="row justify-content-between">
-          <div class="col-5 border text-center">
-            EVENEMENTS
-          </div>
-          <div class="col-5 border text-center">
-              <img src="images/verre.jpg" alt="un verre d'eau">
-              <br />
-              PROMOTIONS SUR LE VERRE D'EAU A 4 EUROS SEULEMENT
+<div class="container">
+  <div class="row justify-content-around">
+    
+      <div class="card" style="width: 540px; border: solid 1px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/verre.jpg" class="card-img-top" alt="verre d'eau pas cher">
+          </div>  
+            <div class="col-md-8">  
+              <div class="card-body">
+                <h5 class="card-title">Le verre d'eau à moins de 5€ !</h5>
+                <p class="card-text">En ce moment notre verre d'eau est à 4,99€ <br />
+                  Une aubaine à ne pas louper ! <br />
+                Enfin, si vous souhaitez boire de l'eau, c'est vous qui voyez...</p>
+                <a href="#" class="btn btn-primary">Cliquez-ici pour profiter l'offre</a>
+              </div>
+              <div class="card-footer text-muted">
+                Plus que 365 jours !
+              </div>
+            </div>
         </div>
       </div>
-  </div>
+    
+  
+    
+    <div class="card" style="width: 540px; border: solid 1px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="images/sac.jpg" class="card-img-top" alt="Sac en papier">
+        </div>   
+        <div class="col-md-8">  
+          <div class="card-body">
+              <h5 class="card-title">La soirée spéciale Gerbotron !</h5>
+              <p class="card-text">Nous lançons très bientôt notre soirée spéciale ! N'oubliez pas votre sac en papier! En tissus pour les plus courageuses et courageux ! </p>
+              <a href="#" class="btn btn-primary">Cliquez-ici pour commander votre sac</a>
+            </div>
+            <div class="card-footer text-muted">
+              Dans 2 semaines !
+            </div>
+        </div>
+      </div>  
+    </div>
+  </div>  
+</div>
 
 <!--footer-->
 
@@ -80,5 +102,8 @@
         </div>
     </div>
   </div>
+  <!--JS-->
+	
+<script type="text/javascript" src="css/bootstrap.min.js"></script>
 </body>
 </html>
