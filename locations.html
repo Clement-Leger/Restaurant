@@ -3,73 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Endroits Gerbotron</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <!--TEST-->
+    
+    <!--Navbar-->
 
-    <div class="container container-fluid">
-        <div class="row">
-          <div class="col-md-5 offset-md-1 my-md-5">
-            <div class="col-md-12">
-              <div class="card p-md-3 p-3 my-3 border border-secondary">
-                <div class="mapBox rounded-circle">
-                  <img
-                    class="mapImg card-img-top img-fluid"
-                    id="mapCharleroi"
-                    src="./img/mapCharleroi.jpg"
-                    alt="map topo Charleroi"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title pb-md-2 border-bottom border-primary">
-                    Charleroi
-                  </h3>
-                  <div class="h6 mb-md-3 my-3">
-                    <h6>Avenue du Hipster, 96</h6>
-                    <h6>6000 Charleroi</h6>
-                    <h6>Belgique</h6>
-                  </div>
-                  <ul class="list-group">
-                    <li class="list-group-item bg-light">Mar. - Dim.</li>
-                    <li class="list-group-item bg-light">8:00 - 15:00</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 my-md-5">
-            <div class="col-md-12">
-              <div class="card p-md-3 p-3 my-3 border border-secondary">
-                <div class="mapBox rounded-circle">
-                  <img
-                    class="mapImg card-img-top img-fluid"
-                    id="mapBrussels"
-                    src="./img/mapBrussels.jpg"
-                    alt="map topo Brussels"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title pb-md-2 border-bottom border-primary">
-                    Bruxelles
-                  </h3>
-                  <div class="h6 mb-md-3 my-3">
-                    <h6>Chaussée du babos, 69</h6>
-                    <h6>1000 Bruxelles</h6>
-                    <h6>Belgium</h6>
-                  </div>
-                  <ul class="list-group mt-mb-2">
-                    <li class="list-group-item bg-light">Mar. - Dim.</li>
-                    <li class="list-group-item bg-light">8:00 - 15:00</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top opacity-75">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#" class="Gerbotron">Gerbotron</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pictures.html">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="locations.html">Localisations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-
+    </nav>
 
     <!--Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
