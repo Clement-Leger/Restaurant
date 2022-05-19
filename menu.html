@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <title>Menu</title>
+  </head>
 <body>
 <!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top opacity-75">
@@ -16,7 +18,10 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#" class="Gerbotron">Gerbotron</a>
+      <a class="navbar-brand" href="#" class="Gerbotron"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+      </svg></a>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
@@ -39,9 +44,10 @@
 </nav>
 
   <!--Menu-->
+  
   <!--Entrées-->
     
-<div class="container menu">
+<div class="container menu mt-5">
   <div class="row"><h1>Entrées</h1>
     <div class="col-sm-4">
       <img width="250px" src="images/entree.jpg" alt="photo d'une entrée">
@@ -51,15 +57,15 @@
         
           <li class="list-group-item d-flex justify-content-between align-items-center">
             Epinards cuits au micro-onde puis refroidi au réfrigérateur
-            <span class="badge badge-warning badge-pill">25,99€</span>
+            <span class="badge bg-secondary">Hors Stock</span>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">
             Haricots rouges secs et croustillants
-            <span class="badge badge-danger badge-pill">40€</span>
+            <span class="badge bg-secondary">Hors Stock</span>
           </li>
           <li class="list-group-item d-flex justify-content-between align-items-center">
             Plateau assortiment de chips, fromages et jambons accompagnés de camembert fondu 
-            <span class="badge badge-success badge-pill">5€</span>
+            <span class="badge bg-success">5€</span>
           </li>
       </ul>    
     </div>
@@ -73,15 +79,15 @@
     <ul class="list-group">
       <li class="list-group-item d-flex justify-content-between align-items-center">
         Raviolis surgelés saupoudrés de cannelle
-        <span class="badge badge-warning badge-pill">55,32€</span>
+        <span class="badge bg-secondary">Hors Stock</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         Salade saine (tomates, concombre, maïs, thon, etc)
-        <span class="badge badge-danger badge-pill">250€</span>
+        <span class="badge bg-danger">250€</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         Tartiflette, saucisson, burger et pizza
-        <span class="badge badge-success badge-pill">1€ symbolique</span>
+        <span class="badge bg-success">1€ symbolique</span>
       </li>
     </ul>
 </div>
@@ -93,15 +99,15 @@
     <ul class="list-group">
       <li class="list-group-item d-flex justify-content-between align-items-center">
         Salade de fruits (pomme, banane, orange, ananas, fraise, mangue)
-        <span class="badge badge-danger badge-pill">350€</span>
+        <span class="badge bg-danger">350€</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         Plateau d'une sélection de 18 fromages
-        <span class="badge badge-success badge-pill">3€</span>
+        <span class="badge bg-success">3€</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         Coupe colonel XXXXXXL (1/4 de glace et 3/4 de vodka)
-        <span class="badge badge-success badge-pill">5€</span>
+        <span class="badge bg-success">5€</span>
       </li>
     </ul>
   </div>
@@ -113,32 +119,40 @@
     <ul class="list-group">
       <li class="list-group-item d-flex justify-content-between align-items-center">
         Verre d'eau
-        <span class="badge badge-danger badge-pill">4,99€</span>
+        <span class="badge bg-danger">4,99€</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         1L Vodka
-        <span class="badge badge-success badge-pill">0,55€</span>
+        <span class="badge bg-success">0,55€</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         1,5L Whisky
-        <span class="badge badge-success badge-pill">0,30€</span>
+        <span class="badge bg-success">0,30€</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         Verre de sirop de grenadine
-        <span class="badge badge-warning badge-pill">3€</span>
+        <span class="badge bg-warning">3€</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         5L de bière
-        <span class="badge badge-success badge-pill">1€</span>
+        <span class="badge bg-success">1€</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         Assortiment d'un litre de tous les alcools du bar à consommer sur le champ
-        <span class="badge badge-success badge-pill">On vous donne 10€</span>
+        <span class="badge bg-secondary">Hors stock</span>
       </li>
     </ul>
 </div>
 
-<!--JS-->
-<script type="text/javascript" src="css/bootstrap.min.js"></script>
-</body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>

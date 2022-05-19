@@ -1,3 +1,20 @@
 .carousel{
     margin-top: 100px;
 }
+
+.accordeon{
+    margin-top: 100px;
+}
+
+.map{
+    margin-top: 20px;
+    height: 350px;
+}
+
+.horaire{
+    font-weight: bold;
+}
+
+.formulaire{
+    margin-top: 75px;
+}
