@@ -16,7 +16,7 @@ Le but du jeu est d'avoir un site qui nous parle d'un restaurant. Elle doit êtr
 
 ## De quand date le projet ? C'est en cours ?
 
-Le projet date du 16/05/2022, c'est donc encore en cours, puisque c'est aujourd'hui même qu'il a vu le jour !
+Le projet date du 16/05/2022, il est pour le moment toujours en cours.
 
 ## Le but de la manoeuvre ?
 
@@ -24,7 +24,7 @@ Pourquoi je fais ça ? Pour m'exercer à utiliser du bootstrap dans le cadre de 
 
 ## Comment ça progresse ?
 
-Pour l'instant c'est la galère, mais je vais faire de mon mieux pour que ça progresse bien dans la direction où je veux aller tout en respectant les consignes.
+Il est presque terminé. Le design n'est pas top, ce n'est malheureusement pas mon fort. Le carousel ne fonctionne pas comme je le voudrais.
 
 ## Il y a quoi là-dedans ?
 
