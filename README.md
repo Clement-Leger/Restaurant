@@ -60,4 +60,4 @@ correct tag.
 
 ## Un petit mot pour la fin ?
 
-LEEEEEEET'S GOOOOOOOO
+Le résultat approximatif est disponible ici = https://clement-leger.github.io/restaurant-css-framework/
